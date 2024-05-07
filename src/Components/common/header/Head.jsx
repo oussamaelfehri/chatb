@@ -5,12 +5,7 @@ const Head = () => {
     <>
       <section className='head'>
         <div className='container flexSB'>
-          <div className='logo'>
-          <img src={logo} alt="Logo" className='logo'/>
-            <h1>  </h1>
-           
-            <span></span>
-          </div>
+          
 
           <div className='social'>
             <i className='fab fa-facebook-f icon'></i>

@@ -1,0 +1,12 @@
+
+  .awrapper {
+    position: relative;
+    top: -260px;
+    height: 300px;
+    padding: 15px; /* Plus d'espace autour de l'image */
+    border-radius: 15px; /* Coins arrondis */
+   
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Ombre douce pour un effet de profondeur */
+    overflow: hidden; /* Assure que tout reste à l'intérieur du cadre */
+  }
+  

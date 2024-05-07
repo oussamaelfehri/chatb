@@ -8,6 +8,7 @@ const Final = () => {
   return (
     <div className='final'>Your name is Gowtham aged {count} has been added to student system. You may now exit.</div>
     
+    
   )
 }
 export default Final;

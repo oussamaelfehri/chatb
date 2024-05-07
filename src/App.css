@@ -8,7 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #f8f8f8;
 }
-/*------------global-----------*/
+/------------global-----------/
 .container {
   max-width: 85%;
   margin: auto;
@@ -65,7 +65,7 @@ button:hover {
   
 }
 
-/*------------global-----------*/
+/------------global-----------/
 #heading {
   text-align: center;
   padding: 40px 0;
@@ -85,6 +85,34 @@ button:hover {
   color: maroon;
   text-transform: uppercase;
 }
+.enroll-button{
+ 
+    position: relative;
+    left: 0;   
+    background-color: blue;
+    top:-600px;
+  
+} 
+.a{
+
+  float:inline-end; 
+}
+.ChatPage {
+  width: 80%; /* Largeur de la page */
+  max-width: 800px; /* Largeur maximale */
+  margin: 0 auto; /* Centre la page horizontalement */
+  margin-top: 50px; /* Marge en haut pour décaler la page vers le bas */
+  padding: 20px; /* Espacement intérieur de la page */
+  background-color: #f0f0f0; /* Couleur de fond */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+Chatbot{
+  flex-grow: 1; /* Le conteneur de chat prend tout l'espace disponible */
+  overflow-y: auto; /* Ajoute une barre de défilement vertical si nécessaire */
+  /* Autres styles selon vos besoins */
+}
+
 #heading h1 {
   font-size: 45px;
   margin: 20px 0;
@@ -96,7 +124,7 @@ p {
 }
 
 .back {
-  background-image: url("../public/images/back.webp");
+
   background-size: cover;
   background-attachment: fixed;
   position: absolute;

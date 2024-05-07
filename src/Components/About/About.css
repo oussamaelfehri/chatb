@@ -1,6 +1,8 @@
 .aboutHome {
-    height: auto;
-  }
+  height: auto;
+  top: -380px; /* Augmentez la valeur pour déplacer l'élément vers le bas */
+  position: relative;
+}
   .aboutHome #heading {
     text-align: left;
     padding: 0;

@@ -2,6 +2,8 @@
 .head {
   padding: 20px 0;
   color: #fff;
+  position: fixed;
+  top:110px;
 }
 
 .logo img {
@@ -34,9 +36,10 @@ header li {
 }
 header ul {
   padding: 30px 20px;
+  color:blue;
 }
 header ul li a {
-  color:maroon;
+  color:#1eb2a6;
   font-weight: 500;
   transition: 0.5s;
 }
@@ -44,7 +47,7 @@ header ul li a:hover {
   color: #1eb2a6;
 }
 .start {
-  background-color: maroon;
+  background-color:#1eb2a6;
   padding: 30px 70px;
   color: #fff;
   clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);

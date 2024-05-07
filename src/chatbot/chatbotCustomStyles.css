@@ -1,0 +1,24 @@
+/* chatbotCustomStyles.css */
+
+.react-chatbot-kit-chat-container {
+    width: 90%;
+    max-width: 600px; /* Adjust width as necessary */
+    margin: auto; /* Centers the chatbot horizontally */
+    font-family: 'Arial', sans-serif; /* Use a custom font if you prefer */
+  }
+  
+  /* Customizing the widget's look */
+  .react-chatbot-kit-chat-widget-container {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    background-color: #eff3f6;
+  }
+  
+  /* Customizing the message input area */
+  .react-chatbot-kit-chat-input-container textarea {
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+  }
+  
